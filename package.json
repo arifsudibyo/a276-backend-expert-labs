@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest --watchAll --coverage",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0"
+  }
+}
